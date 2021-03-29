@@ -1,0 +1,5 @@
+#!/bin/bash
+
+http-server /home/scritch/filehost/files --port 9443 --log-ip --ssl --cert /home/scritch/filehost/certs/fullchain.pem --key /home/scritch/filehost/certs/privkey.pem
+
+
